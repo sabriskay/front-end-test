@@ -5,9 +5,11 @@ import constants from './constants';
 class Component1 extends Component {
     render () {
         return (
-            <div>
-                <div className="title-product">{constants.TITLE_PRODUCT}</div>
-            </div>
+            <section className="short-description vip-bg-alt">
+                <header className="vip-section-header">
+                    <h1 className="vip-title-main">{constants.TITLE_PRODUCT}</h1>
+                </header>
+            </section>
         );
     }
 }
