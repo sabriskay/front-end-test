@@ -10,7 +10,7 @@ function selectOption(maxValue) {
     for (let i = 1; i <= maxValue; i++) {
         funcs.push({
                 value:i,
-                "label":i
+                label:i
             }
         );
     }
