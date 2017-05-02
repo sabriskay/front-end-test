@@ -10,7 +10,7 @@ function selectOption(maxValue) {
     for (let i = 1; i <= maxValue; i++) {
         funcs.push({
                 value:i,
-                "label":i
+                label:i
             }
         );
     }
@@ -21,8 +21,7 @@ class Component4 extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {value: 'coconut'};
-        this.paymetValue = {
+        this.state = {
             valueQuantity: '1',
             valuePayment: '1'
         };
@@ -64,7 +63,6 @@ class Component4 extends Component {
                     />
                 </div>
                 <ButtonBuy />
-                <CarouselImage />
             </fieldset>
         );
     }
