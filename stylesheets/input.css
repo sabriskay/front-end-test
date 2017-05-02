@@ -1,0 +1,103 @@
+/* line 1, ../sass/input.scss */
+.vip-bg-alt {
+  background: #F4F4F4;
+}
+
+/* line 5, ../sass/input.scss */
+[class*="vip-section-"] {
+  padding: 25px 0;
+}
+
+/* line 9, ../sass/input.scss */
+.short-description .vip-section-header {
+  text-align: center;
+  text-indent: 50px;
+  padding: 15px 0;
+}
+/* line 13, ../sass/input.scss */
+.short-description .vip-section-header .vip-title-main {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 2.3em;
+  position: relative;
+  color: #333;
+  line-height: 1.2em;
+}
+
+/* line 24, ../sass/input.scss */
+.vip-section-description {
+  text-align: center;
+  margin: auto;
+}
+/* line 27, ../sass/input.scss */
+.vip-section-description .vip-container {
+  border-bottom: 1px solid #ccc;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 17px;
+  position: relative;
+}
+/* line 34, ../sass/input.scss */
+.vip-section-description .vip-gallery-container {
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+/* line 39, ../sass/input.scss */
+.vip-section-description .vip-gallery-container .vip-gallery {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+}
+/* line 43, ../sass/input.scss */
+.vip-section-description .vip-gallery-container .vip-gallery .product-gallery {
+  margin: 0 auto 25px;
+  text-align: center;
+  min-height: 50%;
+  position: relative;
+  padding-right: 554px;
+  overflow: hidden;
+  width: 42px;
+}
+/* line 54, ../sass/input.scss */
+.vip-section-description .vip-product-info {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 480px;
+  min-width: 390px;
+  margin-left: -4px;
+  padding-left: 30px;
+}
+/* line 63, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-price-container .vip-price {
+  font-size: 2.8em;
+  margin-bottom: 5px;
+}
+/* line 67, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-price-container > legend {
+  display: none;
+}
+/* line 71, ../sass/input.scss */
+.vip-section-description .vip-product-info > fieldset {
+  padding: 10px 0;
+}
+/* line 74, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-stock-select {
+  overflow: visible;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 78, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-stock-select.quantity-selection {
+  padding-bottom: 0;
+}
+/* line 81, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-stock-select .stock-string {
+  display: block;
+  margin-bottom: 5px;
+  float: none;
+  color: #999;
+  min-width: 50%;
+}
