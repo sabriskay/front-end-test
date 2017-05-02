@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import Image from './ImageProduct';
 
 class Component2 extends Component {
     render () {

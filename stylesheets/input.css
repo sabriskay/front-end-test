@@ -30,19 +30,27 @@
   margin: auto;
 }
 /* line 27, ../sass/input.scss */
+.vip-section-description .vip-container {
+  border-bottom: 1px solid #ccc;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 17px;
+  position: relative;
+}
+/* line 34, ../sass/input.scss */
 .vip-section-description .vip-gallery-container {
   display: inline-block;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
 }
-/* line 32, ../sass/input.scss */
+/* line 39, ../sass/input.scss */
 .vip-section-description .vip-gallery-container .vip-gallery {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   position: relative;
 }
-/* line 36, ../sass/input.scss */
+/* line 43, ../sass/input.scss */
 .vip-section-description .vip-gallery-container .vip-gallery .product-gallery {
   margin: 0 auto 25px;
   text-align: center;
@@ -52,7 +60,7 @@
   overflow: hidden;
   width: 42px;
 }
-/* line 47, ../sass/input.scss */
+/* line 54, ../sass/input.scss */
 .vip-section-description .vip-product-info {
   display: inline-block;
   vertical-align: top;
@@ -62,35 +70,31 @@
   margin-left: -4px;
   padding-left: 30px;
 }
-/* line 56, ../sass/input.scss */
+/* line 63, ../sass/input.scss */
 .vip-section-description .vip-product-info .vip-price-container .vip-price {
   font-size: 2.8em;
   margin-bottom: 5px;
 }
-/* line 60, ../sass/input.scss */
+/* line 67, ../sass/input.scss */
 .vip-section-description .vip-product-info .vip-price-container > legend {
   display: none;
 }
-/* line 64, ../sass/input.scss */
+/* line 71, ../sass/input.scss */
 .vip-section-description .vip-product-info > fieldset {
   padding: 10px 0;
 }
-/* line 66, ../sass/input.scss */
-.vip-section-description .vip-product-info > fieldset :last-of-type {
-  border: 0;
-}
-/* line 70, ../sass/input.scss */
-.vip-section-description .vip-product-info .vip-stock-quantity {
+/* line 74, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-stock-select {
   overflow: visible;
   display: inline-block;
   vertical-align: top;
 }
-/* line 74, ../sass/input.scss */
-.vip-section-description .vip-product-info .vip-stock-quantity.quantity-selection {
+/* line 78, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-stock-select.quantity-selection {
   padding-bottom: 0;
 }
-/* line 77, ../sass/input.scss */
-.vip-section-description .vip-product-info .vip-stock-quantity .stock-string {
+/* line 81, ../sass/input.scss */
+.vip-section-description .vip-product-info .vip-stock-select .stock-string {
   display: block;
   margin-bottom: 5px;
   float: none;

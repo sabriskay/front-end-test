@@ -24,6 +24,13 @@
 .vip-section-description {
   text-align: center;
   margin:auto;
+  .vip-container {
+    border-bottom: 1px solid #ccc;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 17px;
+    position: relative;
+  }
   .vip-gallery-container {
     display: inline-block;
     -webkit-user-select: none;
@@ -63,11 +70,8 @@
     }
     >fieldset {
       padding: 10px 0;
-      :last-of-type {
-        border:0;
-      }
     }
-    .vip-stock-quantity {
+    .vip-stock-select {
       overflow: visible;
       display: inline-block;
       vertical-align: top;
@@ -81,7 +85,8 @@
         color: #999;
         min-width: 50%;
       }
-
     }
   }
 }
+
+
