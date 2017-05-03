@@ -1,4 +1,4 @@
-@import url(../node_modules/chico/dist/ui/chico.min.css);
+@import url(../dist/ui/chico.css);
 /* line 3, ../sass/input.scss */
 .vip-bg-alt {
   background: #F4F4F4;
