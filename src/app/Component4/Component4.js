@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import constants from './constants';
+import constants from '../constants';
 import Select from 'react-select';
-import ButtonBuy from './ButtonBuy';
-import CarouselImage from './CarouselImage';
+import ButtonBuy from '../ButtonBuy/ButtonBuy';
+import CarouselImage from '../CarouselImage';
 
 function selectOption(maxValue) {
     var funcs = [];
@@ -21,8 +21,7 @@ class Component4 extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {value: 'coconut'};
-        this.paymetValue = {
+        this.state = {
             valueQuantity: '1',
             valuePayment: '1'
         };
@@ -42,7 +41,7 @@ class Component4 extends Component {
         return (
             <fieldset className="vip-stock-select quantity-selection">
                 <div className="stock-string">
-                    <legend>{constants.QUANTITY_LEGEND}</legend>
+                    <legend className="test">{constants.QUANTITY_LEGEND}</legend>
                     <Select
                         className={"stock-quantity"}
                         value={this.state.valueQuantity}
@@ -64,7 +63,7 @@ class Component4 extends Component {
                     />
                 </div>
                 <ButtonBuy />
-                <CarouselImage />
+                <div className="info-message">{constants.INFO_MESSAGE}</div>
             </fieldset>
         );
     }

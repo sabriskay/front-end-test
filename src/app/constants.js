@@ -4,5 +4,6 @@ export default {
     PRICE_PRODUCT_2: '99',
     PRICE_LEGEND: 'Price',
     QUANTITY_LEGEND: 'Quantity: ',
-    PAYMENT_LEGEND: 'Payments: '
+    PAYMENT_LEGEND: 'Payments: ',
+    INFO_MESSAGE: "Mercadolibre isn't the owner of this product"
 };

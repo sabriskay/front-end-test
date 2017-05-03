@@ -1,0 +1,21 @@
+.vip-section-description {
+  .vip-product-info {
+    .vip-price-container {
+      .vipStockSelect {
+        overflow: visible;
+        display: inline-block;
+        vertical-align: top;
+        &.quantitySelection {
+          padding-bottom: 0;
+        }
+        .stockString {
+          display: block;
+          margin-bottom: 5px;
+          float: none;
+          color: #999;
+          min-width: 50%;
+        }
+      }
+    }
+  }
+}
