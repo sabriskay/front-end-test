@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import constants from './constants';
-import Component4 from './Component4';
+import Component4 from './Component4/Component4';
 
 class Component3 extends Component {
     render () {

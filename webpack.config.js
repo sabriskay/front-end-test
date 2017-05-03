@@ -19,14 +19,31 @@ var config = {
     module : {
         loaders : [
             {
-                test : /\.jsx?/,
-                include : APP_DIR,
-                loader : 'babel'
+                test: /\.scss$/,
+                use: [{
+                    loader: 'style-loader'
+                },{
+                    loader: 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]'
+                },{
+                    loader: 'resolve-url-loader'
+                },{
+                    loader: 'sass-loader'
+                }]
+            },
+            {
+                test: /\.js$/,
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        query: {
+                            presets: ['react']
+                        }
+
+                    }
+                ],
+                exclude: '/node_modules/'
             }
         ]
-    },
-    resolveLoader: {
-        moduleExtensions: ['-loader']
     }
 };
 

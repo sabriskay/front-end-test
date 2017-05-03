@@ -1,5 +1,17 @@
+@import "../node_modules/chico/dist/ui/chico.min.css";
+
 .vip-bg-alt {
   background:#F4F4F4;
+}
+
+.message-label {
+  display: block;
+  margin: 5px 0;
+  color: #999;
+}
+
+.button {
+  margin: 10px 0;
 }
 
 [class*= "vip-section-"] {
@@ -79,13 +91,18 @@
         padding-bottom: 0;
       }
       .stock-string {
-        display: block;
-        margin-bottom: 5px;
+        @extend .message-label;
         float: none;
-        color: #999;
         min-width: 50%;
+        .stock-quantity, .stock-payment {
+          width: 24%;
+        }
       }
     }
+  }
+  .info-message {
+    font-style: italic;
+    @extend .message-label;
   }
 }
 
